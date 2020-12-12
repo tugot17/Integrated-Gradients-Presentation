@@ -1,6 +1,6 @@
 # Integrated-Gradients-Presentation
 
-[https://tugot17.github.io/Pytorch-Lightning-Presentation/#/](https://tugot17.github.io/Pytorch-Lightning-Presentation/#/)
+[https://tugot17.github.io/Integrated-Gradients-Presentation](https://tugot17.github.io/Integrated-Gradients-Presentation/#/)
 
 Presentation on Integrated Gradients
 
