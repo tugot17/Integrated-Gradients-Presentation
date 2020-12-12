@@ -23,8 +23,8 @@
         <section>
             <h2>Integrated Gradients</h2>
             \begin{equation}
-            IG_{i}(x)=\left(x_{i}-x_{i}^{\prime}\right) \times \int_{\alpha=0}^{1} \frac{\partial
-            F\left(x^{\prime}+\alpha \times\left(x-x^{\prime}\right)\right)}{\partial x_{i}} d \alpha
+            IG_{i}(x)=\left(x_{i}-x_{i}^{\prime}\right) \int_{\alpha=0}^{1} \frac{\partial
+            F\left(x^{\prime}+\alpha \left(x-x^{\prime}\right)\right)}{\partial x_{i}} d \alpha
             \end{equation}
             <small>Piotr Mazurek</small>
         </section>
@@ -376,7 +376,7 @@ attributions_ig.size()
         defaultTiming: 120,
         mouseWheel: false,
         previewLinks: false,
-        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        transition: 'fast', // none/fade/slide/convex/concave/zoom
         transitionSpeed: 'fast', // default/fast/slow
         backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
         display: 'block',
